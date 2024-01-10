@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-body">
+    <img src="{% block img-link %}{% endblock img-link %}" class="card-image-top" style="width: 100%; height: 300px">
+    <p class="card-title display-6">{% block language %} {% endblock language %}</p>
+    <p class="card-text">{% block description %}{% endblock description %}</p>
+    <a href="{% block lang_link %}{% endblock lang_link %}" class="btn btn-primary">
+      More Information
+    </a>
+  </div>
+</div>

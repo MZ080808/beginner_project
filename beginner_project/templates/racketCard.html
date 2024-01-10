@@ -1,0 +1,16 @@
+{% extends "card.html" %}
+{% load static %}
+
+{% block img-link %}
+{% static 'racket-logo.png' %}
+{% endblock img-link %}
+
+{% block language %}Racket{% endblock language %}
+
+{% block description %}
+Racket descends from the Lisp family of languages and has an educational focus.
+{% endblock description %}
+
+{% block lang-link %}
+{% url 'racket' %}
+{% endblock lang-link %}
